@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js"></script>
+  <head>
+
+  <body>
+    <div>
+      <img class="img-logo" src="logo_web.png" alt="logo">
+    </div>
+      <h1>Seja Bem-vindo(a)!</h1>
+        <h4>Faça login para continuar</h4>
+
+    <form id="login-form">
+
+      <div class="input-padrao">
+        <img src="vector.png" alt="vector">
+        <input type="email" id="email" required placeholder="E-mail ou CPF/CNPJ">
+      </div>
+
+      <div class="input-padrao">
+        <img src="group.png" alt="group">
+        <input type="password" id="pass" name="password" required
+          placeholder="Senha">
+      </div>
+
+        <button type="submit" class="entrar">Entrar</button>
+
+    </form>
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body,
+input,
+button {
+  font: 400 16px "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #062547; 
+  box-shadow: rgba(0, 0, 0, 0.266) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.222) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.211) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.img-logo {
+  max-width: 300px;
+}
+
+h1 {
+  margin-top: 36px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+.entry {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* botão */
+  text-align: center;
+  border-radius: 6px 9 solid 9;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  margin: 10px;
+}
+
+.entry:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.customize-form label, input, button {
+  display: block;
+  margin: 10px auto;
+}
+@media(max-width:600px) {
+.final {
+  display: inline-block;
+  grid-template-columns: 1fr;}
+}
